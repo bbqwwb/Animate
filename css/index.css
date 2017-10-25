@@ -1,0 +1,70 @@
+*{padding:0; margin:0;}
+html, body{ 
+width: 100%;
+overflow-x: hidden;
+background: #fff;
+webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+-ms-transform: translateZ(0);
+-o-transform: translateZ(0);
+transform: translateZ(0);}
+img{ border:0; }
+.clearfix:before,
+.clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+.tit{background: #08b3ff;display:flex;justify-content:center;align-items:center;height: 70px; }
+.tit img{display: block; margin: 0 auto;  width: 50%; max-width: 410px;}
+.banner1{position: relative; min-height: 242px;}
+.banner1_bg{ width: 100%; display: block;}
+.banner1_tit{ position: absolute; top: 0; width: 100%;animation-delay:0.4s;-webkit-animation-delay:0.4s; }
+.banner1 a{ display: block; width: 46%; position: absolute; bottom: 50px; margin: 0 27%; animation-delay:0.4s;-webkit-animation-delay:0.4s;}
+.banner1 a img{ width: 100%; display: block;}
+.banner2{position: relative;  min-height: 256px;}
+.banner2 img{display: block;}
+.banner2_l1{ width: 50%; position: absolute; right: 0; top: 0; animation-delay:0.4s;-webkit-animation-delay:0.4s;}
+.banner2_l2{ width: 50%;position: absolute; right: 0; bottom: 0; animation-delay:0.5s;-webkit-animation-delay:0.5s;}
+.banner2_bg{ width: 100%;}
+.banner3{padding:25px 0; background: #08b3ff;}
+.banner3 img{ width: 100%; padding: 8px 0;}
+.banner4{ min-height: 188px;position: relative;}
+.banner4 img{ width: 100%; display:block;}
+.banner4_l{ position: absolute; bottom: 0; }
+.banner5{position: relative;}
+.banner5 img{width: 100%; display:block;}
+.banner5_f{position: absolute; top: 0;}
+.left{ float: left; width: 50%; }
+.left img, .right img{width: 100%; display: block;}
+.bottom{ position: relative; }
+.bottom img{ display: block; }
+.bottom_top{ width: 100%; position: absolute; top: 0 }
+.bottom_tit{ width: 100%; }
+.bottom a{ display: block; width:54%;margin: 0 23%; }
+.bottom a img{ width: 100%; }
+.bottom_bg{ width: 100%; }
+
+
+
+
+
+
+@keyframes pulse{
+0%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+50%{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+100%{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+}
+
+@media screen and (min-width:375px){
+	.tit{height: 80px;}
+}
+
+@media screen and (min-width:425px) {
+	.tit{height: 100px;}
+	.banner1 a{bottom:65px;}
+}
+@media screen and (min-width:600px) {
+	.tit{height: 130px;}
+}
+@media screen and (min-width:768px) {
+	.tit{height: 160px;}
+	.banner1 a{bottom:100px;}
+}
