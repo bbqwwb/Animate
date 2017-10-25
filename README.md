@@ -1,7 +1,7 @@
 # Animate
 通过计算滚动条滑动的位置控制animate的触发
 
-<div class="revealOnScroll" data-animation="lightSpeedIn" data-timeout="2000"></div>//可设置延时执行
+<div class="revealOnScroll" data-animation="lightSpeedIn" data-timeout="2000">//可设置延时执行
 
 
 
