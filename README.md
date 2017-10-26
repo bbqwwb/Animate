@@ -20,3 +20,4 @@
     });
 ```
 
+附上完全兼容swiper的loop模式，完美支持swiper的嵌套的animateControl v1.0.3
