@@ -1,7 +1,7 @@
 $(function() {
 
   var $window           = $(window),
-      win_height_padded = $window.height() * 1.1,
+      win_height_padded = $window.height() * 1,
       isTouch           = Modernizr.touch;
 
   if (isTouch) { $('.revealOnScroll').addClass('animated'); }
@@ -10,7 +10,7 @@ $(function() {
 
   function revealOnScroll() {
     var scrolled = $window.scrollTop(),
-        win_height_padded = $window.height() * 1.1;
+        win_height_padded = $window.height() * 1;
 
     // Showed...
     $(".revealOnScroll:not(.animated)").each(function () {
